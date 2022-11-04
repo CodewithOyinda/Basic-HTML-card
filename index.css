@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.button {
+    text-align: center;
+    background-color: white;
+    width: 250px;
+    height:55px;
+    border-radius:20px;
+    border: 1px solid #969494;
+    cursor: pointer;
+}
+body {
+  border: 1px solid black;
+  padding: 20px;
+}
+ul {
+  list-style: none;
+}
+ul li:before {
+  content: '\2714';
+  font-size: 1rem;
+  padding-left: 10px;
+  padding-right: 7px;
+}
+.button:hover {
+  background-color: rgb(230, 224, 224);
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
